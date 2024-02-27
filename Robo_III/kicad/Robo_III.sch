@@ -1,0 +1,459 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:NE555P U1
+U 1 1 64F9F70A
+P 5050 2950
+F 0 "U1" H 5050 3531 50  0000 C CNN
+F 1 "NE555P" H 5050 3440 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5700 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 5900 2550 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 64F9FF5A
+P 6000 3150
+F 0 "D3" H 6000 3367 50  0000 C CNN
+F 1 "1N4148" H 6000 3276 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6000 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:ELKO C1
+U 1 1 64FA140E
+P 5250 4400
+F 0 "C1" H 5368 4446 50  0000 L CNN
+F 1 "220uF" H 5368 4355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5288 4250 50  0001 C CNN
+F 3 "~" H 5250 4400 50  0001 C CNN
+	1    5250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:R R3
+U 1 1 64FA24A9
+P 3700 4200
+F 0 "R3" H 3770 4246 50  0000 L CNN
+F 1 "560k" H 3770 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 4200 50  0001 C CNN
+F 3 "~" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:R R4
+U 1 1 64FA3399
+P 3700 4800
+F 0 "R4" H 3770 4846 50  0000 L CNN
+F 1 "390k" H 3770 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 4800 50  0001 C CNN
+F 3 "~" H 3700 4800 50  0001 C CNN
+	1    3700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q1
+U 1 1 64FA371B
+P 4250 4500
+F 0 "Q1" H 4441 4546 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 4441 4455 50  0000 L CNN
+F 2 "!Goody:TO-92-Transistor" H 4450 4600 50  0001 C CNN
+F 3 "~" H 4250 4500 50  0001 C CNN
+	1    4250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q2
+U 1 1 64FA3D42
+P 4550 4000
+F 0 "Q2" H 4741 4046 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 4741 3955 50  0000 L CNN
+F 2 "!Goody:TO-92-Transistor" H 4750 4100 50  0001 C CNN
+F 3 "~" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D1
+U 1 1 64FA754A
+P 5800 4250
+F 0 "D1" H 5918 4189 50  0000 L CNN
+F 1 "LED" H 5918 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 5800 4450 50  0001 C CNN
+F 3 "" V 5800 4150 50  0001 C CNN
+	1    5800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D2
+U 1 1 64FA7A13
+P 6200 4250
+F 0 "D2" H 6318 4189 50  0000 L CNN
+F 1 "LED" H 6318 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 6200 4450 50  0001 C CNN
+F 3 "" V 6200 4150 50  0001 C CNN
+	1    6200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:BAT_HLD_SMD U2
+U 1 1 64FA7CCC
+P 2850 3000
+F 0 "U2" H 2978 3091 50  0000 L CNN
+F 1 "BAT_HLD_SMD" H 2978 3000 50  0000 L CNN
+F 2 "!Goody:BAT-HLD-SMD-Blech" H 2978 2909 50  0000 L CNN
+F 3 "" H 2650 3000 50  0001 C CNN
+	1    2850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:Micro_Schalter S1
+U 1 1 64FA8E01
+P 3350 2350
+F 0 "S1" H 3558 2209 50  0000 L CNN
+F 1 "Micro_Schalter" H 3350 2550 50  0001 C CNN
+F 2 "KHF_LIB:Micro_SchalterKHF" H 3558 2118 50  0000 L CNN
+F 3 "" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2750 2850 2450
+Wire Wire Line
+	2850 2450 3200 2450
+Wire Wire Line
+	3350 2450 3350 2250
+Wire Wire Line
+	3350 2250 4300 2250
+Wire Wire Line
+	5050 2250 5050 2550
+NoConn ~ 3500 2450
+Wire Wire Line
+	4550 3150 4300 3150
+Wire Wire Line
+	4300 3150 4300 2250
+Connection ~ 4300 2250
+Wire Wire Line
+	4300 2250 5050 2250
+Wire Wire Line
+	2850 3250 2850 5150
+Wire Wire Line
+	6200 5150 6200 4500
+Wire Wire Line
+	5050 3350 5050 5150
+Wire Wire Line
+	2850 5150 3700 5150
+Connection ~ 5050 5150
+Wire Wire Line
+	5050 5150 5250 5150
+Wire Wire Line
+	5800 4500 5800 5150
+Wire Wire Line
+	3700 4950 3700 5150
+Connection ~ 3700 5150
+Wire Wire Line
+	3700 4650 3700 4500
+Wire Wire Line
+	4050 4500 3700 4500
+Connection ~ 3700 4500
+Wire Wire Line
+	3700 4500 3700 4350
+$Comp
+L !Goody:R R6
+U 1 1 64FABE4C
+P 4650 3550
+F 0 "R6" H 4720 3596 50  0000 L CNN
+F 1 "10R" H 4720 3505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4580 3550 50  0001 C CNN
+F 3 "~" H 4650 3550 50  0001 C CNN
+	1    4650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3400 4300 3400
+Wire Wire Line
+	4300 3400 4300 3150
+Connection ~ 4300 3150
+NoConn ~ 6650 3300
+Wire Wire Line
+	6150 3050 6150 3150
+Wire Wire Line
+	6150 3050 6500 3050
+Wire Wire Line
+	5850 3150 5650 3150
+Connection ~ 5650 3150
+Wire Wire Line
+	5650 3150 5550 3150
+Wire Wire Line
+	4350 4700 4350 5150
+Wire Wire Line
+	3700 5150 4350 5150
+Connection ~ 4350 5150
+Wire Wire Line
+	4350 5150 5050 5150
+Wire Wire Line
+	4650 3800 4650 3700
+Wire Wire Line
+	4350 4000 4350 4300
+Wire Wire Line
+	5250 4550 5250 5150
+Wire Wire Line
+	5650 3150 5650 3950
+Wire Wire Line
+	5050 2250 6650 2250
+Wire Wire Line
+	6650 2250 6650 2800
+Connection ~ 5050 2250
+$Comp
+L !Goody:Mini-Poti P1
+U 1 1 64FA1992
+P 7000 2950
+F 0 "P1" H 6778 2941 50  0000 L CNN
+F 1 "10k" H 6778 2850 50  0000 L CNN
+F 2 "!Goody:Mini-Poti" H 6778 2759 50  0000 L CNN
+F 3 "" V 6750 2900 50  0001 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:R R5
+U 1 1 64FBC7F7
+P 4300 3550
+F 0 "R5" H 4370 3596 50  0000 L CNN
+F 1 "4k7" H 4370 3505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4230 3550 50  0001 C CNN
+F 3 "~" H 4300 3550 50  0001 C CNN
+	1    4300 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3400
+Wire Wire Line
+	4300 3700 4300 4000
+Wire Wire Line
+	4300 4000 4350 4000
+Connection ~ 4350 4000
+NoConn ~ 5550 2750
+NoConn ~ 4550 2950
+$Comp
+L !Goody:Mini-Poti P2
+U 1 1 64FC4175
+P 6500 3450
+F 0 "P2" H 6278 3441 50  0000 L CNN
+F 1 "Mini-Poti" H 6278 3350 50  0000 L CNN
+F 2 "!Goody:Mini-Poti" H 6278 3259 50  0000 L CNN
+F 3 "" V 6250 3400 50  0001 C CNN
+	1    6500 3450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6150 3800
+Wire Wire Line
+	6150 3150 6150 3300
+Connection ~ 6150 3150
+Wire Wire Line
+	6150 3050 6150 2950
+Connection ~ 6150 3050
+Wire Wire Line
+	5550 2950 6150 2950
+Wire Wire Line
+	3700 2750 4450 2750
+Wire Wire Line
+	3700 2750 3700 3550
+Wire Wire Line
+	6000 3550 3700 3550
+Connection ~ 3700 3550
+Wire Wire Line
+	3700 3550 3700 4050
+Connection ~ 4450 2750
+Wire Wire Line
+	4450 2750 4550 2750
+Wire Wire Line
+	4450 2450 5650 2450
+Wire Wire Line
+	5650 2450 5650 3150
+Wire Wire Line
+	4450 2450 4450 2750
+Connection ~ 5250 5150
+Wire Wire Line
+	5250 4250 5250 3950
+Wire Wire Line
+	5250 3950 5650 3950
+Connection ~ 5800 4200
+Connection ~ 5800 5150
+Wire Wire Line
+	4650 4200 5800 4200
+Wire Wire Line
+	5250 5150 5800 5150
+Wire Wire Line
+	5800 5150 6200 5150
+$Comp
+L !Goody:LED D4
+U 1 1 6522D0CE
+P 6550 4250
+F 0 "D4" H 6668 4189 50  0000 L CNN
+F 1 "LED" H 6668 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 6550 4450 50  0001 C CNN
+F 3 "" V 6550 4150 50  0001 C CNN
+	1    6550 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5150 6550 4500
+$Comp
+L !Goody:LED D5
+U 1 1 6522E04B
+P 6900 4250
+F 0 "D5" H 7018 4189 50  0000 L CNN
+F 1 "LED" H 7018 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 6900 4450 50  0001 C CNN
+F 3 "" V 6900 4150 50  0001 C CNN
+	1    6900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5150 6900 4500
+$Comp
+L !Goody:LED D6
+U 1 1 6522EFA4
+P 7300 4250
+F 0 "D6" H 7418 4189 50  0000 L CNN
+F 1 "LED" H 7418 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 7300 4450 50  0001 C CNN
+F 3 "" V 7300 4150 50  0001 C CNN
+	1    7300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5150 7300 4500
+$Comp
+L !Goody:LED D7
+U 1 1 652300CE
+P 7650 4250
+F 0 "D7" H 7768 4189 50  0000 L CNN
+F 1 "LED" H 7768 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 7650 4450 50  0001 C CNN
+F 3 "" V 7650 4150 50  0001 C CNN
+	1    7650 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5150 7650 4500
+$Comp
+L !Goody:LED D8
+U 1 1 65230FAC
+P 8050 4250
+F 0 "D8" H 8168 4189 50  0000 L CNN
+F 1 "LED" H 8168 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 8050 4450 50  0001 C CNN
+F 3 "" V 8050 4150 50  0001 C CNN
+	1    8050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5150 8050 4500
+$Comp
+L !Goody:LED D9
+U 1 1 65231E7B
+P 8400 4250
+F 0 "D9" H 8518 4189 50  0000 L CNN
+F 1 "LED" H 8518 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 8400 4450 50  0001 C CNN
+F 3 "" V 8400 4150 50  0001 C CNN
+	1    8400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5150 8400 4500
+$Comp
+L !Goody:LED D10
+U 1 1 65232D98
+P 8750 4250
+F 0 "D10" H 8868 4189 50  0000 L CNN
+F 1 "LED" H 8868 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 8750 4450 50  0001 C CNN
+F 3 "" V 8750 4150 50  0001 C CNN
+	1    8750 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5150 8750 4500
+$Comp
+L !Goody:LED D11
+U 1 1 65233E6E
+P 9150 4250
+F 0 "D11" H 9268 4189 50  0000 L CNN
+F 1 "LED" H 9268 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 9150 4450 50  0001 C CNN
+F 3 "" V 9150 4150 50  0001 C CNN
+	1    9150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5150 9150 4500
+Wire Wire Line
+	6200 5150 6550 5150
+Connection ~ 6200 5150
+Wire Wire Line
+	6550 5150 6900 5150
+Connection ~ 6550 5150
+Wire Wire Line
+	7300 5150 6900 5150
+Connection ~ 6900 5150
+Wire Wire Line
+	7650 5150 7300 5150
+Connection ~ 7300 5150
+Wire Wire Line
+	8050 5150 7650 5150
+Connection ~ 7650 5150
+Wire Wire Line
+	8400 5150 8050 5150
+Connection ~ 8050 5150
+Wire Wire Line
+	8750 5150 8400 5150
+Connection ~ 8400 5150
+Wire Wire Line
+	9150 5150 8750 5150
+Connection ~ 8750 5150
+Wire Wire Line
+	6550 4200 6900 4200
+Wire Wire Line
+	6900 4200 7300 4200
+Connection ~ 6900 4200
+Wire Wire Line
+	7300 4200 7650 4200
+Connection ~ 7300 4200
+Wire Wire Line
+	7650 4200 8050 4200
+Connection ~ 7650 4200
+Wire Wire Line
+	8050 4200 8400 4200
+Connection ~ 8050 4200
+Wire Wire Line
+	8400 4200 8750 4200
+Connection ~ 8400 4200
+Wire Wire Line
+	8750 4200 9150 4200
+Connection ~ 8750 4200
+Wire Wire Line
+	5800 4200 6200 4200
+Wire Wire Line
+	6200 4200 6550 4200
+Connection ~ 6200 4200
+Connection ~ 6550 4200
+$EndSCHEMATC
