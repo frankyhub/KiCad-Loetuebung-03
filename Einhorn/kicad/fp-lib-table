@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Einhorn")(type KiCad)(uri "$(KIPRJMOD)/Einhorn.pretty")(options "")(descr ""))
+)
