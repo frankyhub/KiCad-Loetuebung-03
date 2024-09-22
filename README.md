@@ -30,7 +30,7 @@
 |  10 |  LED rt 3mm  |
 | -------- | -------- | 
 
-|	                |Löten I 	   |Löten II|
+|	                |Löten II 	   |Löten III|
 |--|--|--|
 |1 x Platine		|:white_check_mark:|:white_check_mark:|
 |1 x Batteriehalter	|:white_check_mark:|:white_check_mark:|
