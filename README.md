@@ -20,6 +20,24 @@
 |  10 |  LED rt 3mm  |
 | -------- | -------- | 
 
-
+|	                |Löten I 	   |Löten II|
+|--|--|--|
+|1 x Platine		|:white_check_mark:|:white_check_mark:|
+|1 x Batteriehalter	|:white_check_mark:|:white_check_mark:|
+|1 x CR2032		|:white_check_mark:|:white_check_mark:|
+|1 x Schalter		|:white_check_mark:|:white_check_mark:|
+|1 x NE555		|:white_check_mark:|:white_check_mark:|
+|1 x R3	560k		|:white_check_mark:|:white_check_mark:|
+|1 x R4	390k		|:white_check_mark:|:white_check_mark:|
+|1 x R4	390k		|:white_check_mark:|:white_check_mark:|
+|1 x R5	4k7		|:white_check_mark:|:white_check_mark:|
+|1 x R6	10R		|:white_check_mark:|:white_check_mark:|
+|1 x D3	1N4148		|:white_check_mark:|:white_check_mark:|
+|2 x Q1, Q2 BC548	|:white_check_mark:|:white_check_mark:|
+|2 x D1, D2 LED	5mm	|:white_check_mark:|:x:|
+|1 x C1	47uF		|:white_check_mark:|:white_check_mark:|
+|2 x Trimmer 10k	|:x:|:white_check_mark:|
+|10 x LED 3mm		|:x:|:white_check_mark:|
+|                       |~10,-|~12,-|
 
 
