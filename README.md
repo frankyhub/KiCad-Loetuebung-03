@@ -36,7 +36,7 @@
 ---
 
 
-|	               |Löten I  | Löten II 	   | Löten III|
+|	               |Löten I  |Löten II 	   |Löten III|
 |--|--|--|--|
 |1 x Platine		|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |1 x Batteriehalter 9V  |:white_check_mark:|:x:|:x:|
@@ -45,6 +45,8 @@
 |1 x CR2032		|:x:|:white_check_mark:|:white_check_mark:|
 |1 x Schalter		|:x:|:white_check_mark:|:white_check_mark:|
 |1 x NE555		|:x:|:white_check_mark:|:white_check_mark:|
+|1 x R1	12k		|:x:|:white_check_mark:|:x:|
+|1 x R2	16k		|:x:|:white_check_mark:|:x:|
 |1 x R3	560k		|:x:|:white_check_mark:|:white_check_mark:|
 |1 x R4	390k		|:x:|:white_check_mark:|:white_check_mark:|
 |4 x 10k		|:white_check_mark:|:x:|:x:|
